@@ -29,6 +29,10 @@
     margin-top: 13%;
 }
 
+.aboutIcon:hover{
+    fill: #978d58;
+}
+
 .background-home{
     background-image: url(../images/background.jpg);
     background-size: cover;
@@ -94,10 +98,53 @@
     margin-right: 22%;
 }
 
+.footer-bg{
+    background-color: #03051e;
+    min-height: 20%;
+    height: 20vh;
+    position: relative;
+    text-align: center;
+    padding-top: 5%;
+}
+
+.footer-icon-row{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.footer-icon{
+    fill: white;
+    height: 25px;
+    width: 25px;
+}
+
+.footer-icon:hover{
+    fill:#978d58;
+}
+
+.footer-text-row{
+    color: #eae1e1;
+    padding-top: 1%;
+    padding-left: 40%;
+}
+
+.footer-link{
+    color: #978d58;
+    padding-left: 0.25em;
+}
+
+.footer-link:hover{
+    color: #eae1e1;
+}
+
 .icons{
     fill: white;
     width: 80px;
     height: 80px; 
+}
+
+.icons:hover{
+    fill: #978d58;
 }
 
 .homeIcons .aboutIcon{
@@ -116,6 +163,10 @@
     font-family: 'Goblin One', cursive;
 }
 
+.intro-text:hover{
+    color: #978d58;
+}
+
 .profile-col{
     justify-content: center;
     padding-top: 6%;
@@ -129,11 +180,47 @@
 
 .skills-container{
     background-color: #0b5269;
-    min-height: 100%;
-    height: 100vh;
+    min-height: 60%;
+    height: 60vh;
     position: relative;
-    text-align: center;
-    padding-top: 20%;
+    padding-top: 5%;
+}
+
+.skills-heading{
+    margin-left: 65%;
+    padding-top: 45%;
+    text-decoration: underline;
+    text-decoration-color: white;
+    color: #978d58;
+}
+
+.skills-head-col{
+    padding-left: 20%;
+    padding-top: 5%;
+}
+
+.skills-icon{
+    margin-left: 5%;
+    fill: white;
+    width: 130px;
+    height: 130px;
+}
+
+.skills-info-col{
+    margin-right: 22%;  
+}
+
+.skills-subhead{
+    color: #978d58;
+    text-decoration: underline;
+    text-decoration-color: #eae1e1;
+}
+
+.skill-bar{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    height: 20px;
+    width: 75%;
 }
 
 @media screen and (max-width: 768px) {
@@ -183,6 +270,13 @@
         margin-right: 0;
     }
 
+    .footer-text-row{
+        color: #eae1e1;
+        padding-top: 1%;
+        text-align: center;
+        padding-left: 6%;
+    }
+    
     .icons{
         height: 45px;
         width: 45px;
@@ -200,5 +294,25 @@
 
     .profile-col{
         display:none;
+    }
+
+    .skills-icon{
+        display: none;
+    }
+
+    .skills-info-col{
+        padding-top: 15%;
+        margin-right: 0;
+    }
+
+    .skills-head-col{
+        padding-top: 0;
+        padding-left:5%;
+    }
+
+    .skills-heading{
+        margin-left: 0;
+        padding-top: 150%;
+        text-align: left;
     }
 }

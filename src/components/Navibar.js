@@ -7,7 +7,7 @@ class Navibar extends Component{
     render(){
         return(
             <Navbar bg="dark" expand="lg" variant="dark" fixed="top">
-                <Navbar.Brand href="#home">Brijesh</Navbar.Brand>
+                <Navbar.Brand href="#home">Brijesh Kumar</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav"/>
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="mr-auto center-navbar">
@@ -15,7 +15,6 @@ class Navibar extends Component{
                         <Nav.Link href="#about">About</Nav.Link>
                         <Nav.Link href="#edu">Education</Nav.Link>
                         <Nav.Link href="#skills">Skills</Nav.Link>
-                        <Nav.Link href="#proj">Projects</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>
